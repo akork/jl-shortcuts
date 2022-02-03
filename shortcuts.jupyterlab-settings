@@ -1,0 +1,210 @@
+{
+    "shortcuts": [
+        	// global
+	{
+	    "command": "application:activate-next-tab",
+	    "keys": [
+		"Ctrl Tab"
+	    ],
+	    "selector": "body"
+	},
+        {
+            "command": "application:activate-previous-tab",
+            "keys": [
+                "Ctrl Shift Tab"
+            ],
+            "selector": "body"
+            
+        },
+        {
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+                "S"
+            ],
+            "selector": ".jp-Notebook:focus",
+            "disabled": true
+        },
+// command mode
+        {
+            "command": "notebook:move-cell-down",
+            "keys": [
+                "J"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },     
+        {
+            "command": "notebook:move-cell-up",
+            "keys": [
+                "K"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },     
+        {
+            "command": "notebook:enter-edit-mode",
+            "keys": [
+                "I"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },      
+        {
+            "command": "notebook:move-cursor-up",
+            "keys": [
+                "T"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:move-cursor-down",
+            "keys": [
+                "H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:run-cell-and-select-next",
+            "keys": [
+                "L"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:run-all-above",
+            "keys": [
+                "F12"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "kernelmenu:interrupt",
+            "keys": [
+                "I",
+                "I"
+            ],
+            "selector": "[data-jp-kernel-user]:focus",
+            "disabled": true
+        },
+        {
+            "command": "kernelmenu:interrupt",
+            "keys": [
+                "E",
+                "E"
+            ],
+            "selector": "[data-jp-kernel-user]:focus"
+        },
+        {
+            "command": "kernelmenu:restart",
+            "keys": [
+                "0",
+                "0"
+            ],
+            "selector": "[data-jp-kernel-user]:focus"
+        },
+// body  
+        
+        {
+            "command": "documentsearch:highlightNext",
+            "keys": [
+                "Accel Alt W"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:close",
+            "keys": [
+                ""
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "tabsmenu:activate-previously-used-tab",
+            "keys": [
+                "Ctrl Shift 6"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "sublime:toggle-comment-indented",
+            "keys": [
+                "Accel U"
+            ],
+            "selector": ".CodeMirror-focused"
+        },
+        {
+            "command": "documentsearch:highlightPrevious",
+            "keys": [
+                "Ctrl W"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "filebrowser:toggle-main",
+            "keys": [
+                "F2"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "completer:invoke-notebook",
+            "keys": [
+                "Accel Alt B"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "filebrowser:toggle-main",
+            "keys": [
+                "F2"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "apputils:activate-command-palette",
+            "keys": [
+                "Accel Shift P"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:activate-next-tab",
+            "keys": [
+                "Alt Tab"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:activate-previous-tab",
+            "keys": [
+                "Alt Shift Tab"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "tabsmenu:activate-by-id",
+            "keys": [
+                "Ctrl T"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:toggle-right-area",
+            "keys": [
+                "Shift Accel R"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+                "S"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:show-cell-outputs",
+            "keys": [
+                "F"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+    ]
+}
