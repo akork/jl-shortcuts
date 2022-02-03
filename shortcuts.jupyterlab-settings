@@ -1,13 +1,13 @@
 {
     "shortcuts": [
-        	// global
-	{
-	    "command": "application:activate-next-tab",
-	    "keys": [
-		"Ctrl Tab"
-	    ],
-	    "selector": "body"
-	},
+// global
+        {
+            "command": "application:activate-next-tab",
+            "keys": [
+                "Ctrl Tab"
+            ],
+            "selector": "body"
+        },
         {
             "command": "application:activate-previous-tab",
             "keys": [
@@ -16,6 +16,7 @@
             "selector": "body"
             
         },
+// command mode
         {
             "command": "notebook:hide-cell-outputs",
             "keys": [
@@ -24,7 +25,6 @@
             "selector": ".jp-Notebook:focus",
             "disabled": true
         },
-// command mode
         {
             "command": "notebook:move-cell-down",
             "keys": [
